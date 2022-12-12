@@ -53,9 +53,9 @@ limit = 10
 [[widgets.page]]
 type = "toc"
 
-# [opengraph.twitter]
-# site = ""
-# card = "summary_large_image"
+[opengraph.twitter]
+site = "sout_Nantang"
+card = "summary_large_image"
 
 [defaultImage.opengraph]
 enabled = false
