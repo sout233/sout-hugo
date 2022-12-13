@@ -52,4 +52,4 @@ menu:
 comments: false
 ---
 
-联系sout添加友链。
+联系sout添加友链。*持续更新*~
