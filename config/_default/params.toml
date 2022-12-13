@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "utterances"
 
 [comments.disqusjs]
 shortname = ""
@@ -85,7 +85,7 @@ admin = ""
 adminLabel = ""
 
 [comments.utterances]
-repo = ""
+repo = "sout233/sout-blog-comments"
 issueTerm = "pathname"
 label = ""
 
