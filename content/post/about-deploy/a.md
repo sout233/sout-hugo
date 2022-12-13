@@ -32,7 +32,7 @@ tags:
 
 登录Vercel，从Github仓库创建，部署指令，输出目录和环境变量需要修改为：
 
-```
+```text
 Build Command:amazon-linux-extras install golang1.11 && hugo --gc --minify
 Output Directory:public
 环境变量：
@@ -75,6 +75,9 @@ card = "summary_large_image"
 ### Vercel 预览 部署失败
 
 > 关了预览部署就行，git page编译容易报错
+> 
+> 在工程设置中设置：`[ "$VERCEL_ENV" != production ]`
+> 
 > ![关闭部署预览参考图](https://i.328888.xyz/2022/12/13/yRzqU.png)
 
 ### sitemap或搜索地址错误
