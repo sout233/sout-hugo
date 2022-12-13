@@ -55,7 +55,7 @@ DNS CNAME过去就行
 
 like this:
 
-```
+```toml
 [opengraph.twitter]
 site = "sout_Nantang"
 card = "summary_large_image"
