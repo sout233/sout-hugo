@@ -1,7 +1,7 @@
 ---
 title: 一次部署博客的记录
 description: 健忘（
-slug: blog-deploy
+slug: about-deploy
 date: 2022-12-13T00:27:44Z
 image: https://images.unsplash.com/photo-1670588761146-2425a98a9a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8aVVJc25WdGpCMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60
 categories:
