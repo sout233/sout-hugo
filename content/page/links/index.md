@@ -16,7 +16,20 @@ menu:
             icon: link
 ---
 
-联系sout添加友链！（或者在下面发评论也可以）
+联系sout添加友链！
+
+或者——使用下面评论功能（这样你可以自定义）
+
+发送类似这样的issue：
+
+```yaml
+- title: XX的Blog
+  description: 你的站点的简介
+  website: https://站点地址/
+  image: https://站点图标.png
+```
+这样我就能收到并添加了
+~~（复制粘贴）~~
 
 <!-- To use this feature, add `links` section to frontmatter.
 
