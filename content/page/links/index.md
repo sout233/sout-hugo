@@ -1,5 +1,6 @@
 ---
 title: 友链
+slug: links
 links:
   - title: HIM的Blog
     description: HIM's Blog - 每个人都走在自己的路上
@@ -9,6 +10,10 @@ links:
     description: 七奈's blog – 我永远能行！
     website: https://slqinai.cn/
     image: https://slqinai.cn/wp-content/uploads/2022/04/cropped-cropped-44b759caa177b7d5dc2c234f6aa3cd1bf5b8e8ef-300x300-1-32x32.jpg
+  - title: 魚が大好きな猫のxiao窝(小鱼儿的blog)
+    description: 相信美好的事情即将发生
+    website: http://www.sisc.ga/
+    image: https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/favicon.ico
 menu:
     main: 
         weight: 4
