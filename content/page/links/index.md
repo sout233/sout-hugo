@@ -16,7 +16,7 @@ menu:
             icon: link
 ---
 
-联系sout添加友链！
+联系sout添加友链！（或者在下面发评论也可以）
 
 <!-- To use this feature, add `links` section to frontmatter.
 
