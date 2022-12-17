@@ -3,7 +3,7 @@ title: 关于三体动画的画面
 description: 仅讨论CG方面
 slug: santi-graph
 date: 2022-12-13T00:27:44Z
-image: https://bkimg.cdn.bcebos.com/pic/7c1ed21b0ef41bd5ad6efb71c78f96cb39dbb7fd97a3?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxODA=,g_7,xp_5,yp_5
+image: https://i.328888.xyz/2022/12/17/4In7t.png
 categories:
     - 评价
 tags:
