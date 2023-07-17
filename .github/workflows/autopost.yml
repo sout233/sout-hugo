@@ -15,6 +15,7 @@ jobs:
       
       - name: 从issue创建文章
         run: |
+          echo "${{toJson(github)}}"
           label="${{ github.event.label.name }}"
           case "$label" in
           "already")
