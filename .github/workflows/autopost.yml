@@ -17,12 +17,12 @@ jobs:
         run: |
           if [[ ${{ github.event.label.name }} == "pre-pub" ]]; then
             mkdir -p content/posts/${{ github.event.issue.title }}
-            cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+            cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
             ${{ github.event.issue.body }}
             EOF
           else
             mkdir -p content/posts/${{ github.event.issue.title }}
-            cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+            cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
             ${{ github.event.issue.body }}
             EOF
           fi
