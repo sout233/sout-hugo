@@ -11,6 +11,5 @@ tags:
 ---
 
 终于部署好了hugo，感谢[hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)，真是一个不错的主题！
-t
 
 > Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
