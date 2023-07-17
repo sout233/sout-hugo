@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event.label.name == 'publish' }}
+    if: ${{ github.event.label.name == 'already' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
