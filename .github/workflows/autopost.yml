@@ -8,25 +8,30 @@ on:
 
 jobs:
   build:
-    if: ${{ github.event.label.name == 'already' }}
+    if: ${{ github.event.label.name == 'already' || github.event.label.name == 'pre-pub'}}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       
       - name: 从issue创建文章
         run: |
-          mkdir -p content/posts/${{ github.event.issue.title }}
-          cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
-          ${{ github.event.issue.body }}
-          EOF
+          if [[ ${{ github.event.label.name }} == "pre-pub" ]]; then
+            mkdir -p content/posts/${{ github.event.issue.title }}
+            cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+            ${{ github.event.issue.body }}
+            EOF
+          else
+            mkdir -p content/posts/${{ github.event.issue.title }}
+            cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+            ${{ github.event.issue.body }}
+            EOF
+          fi
       
       - name: 提交PR
         uses: peter-evans/create-pull-request@v3
         with:
           delete-branch: true
-          title: "publish: ${{ github.event.issue.title}}"
+          title: "发布请求: ${{ github.event.issue.title}}"
           body: |
-            文章将自动部署到: https://shazow.net/p/${{ github.event.issue.title }}
-            Closes #${{ github.event.issue.number }}            
-          reviewers: ${{ github.repository_owner }}
-          commit-message: "发布文章: ${{ github.event.issue.title }}"
+            文章将自动部署到: https://sout.eu.org/p/${{ github.event.issue.title }}
+            将关闭以下issue: #${{ github.event.issue.number }}
