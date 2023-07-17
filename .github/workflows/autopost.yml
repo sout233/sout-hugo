@@ -15,17 +15,22 @@ jobs:
       
       - name: 从issue创建文章
         run: |
-          if [[ ${{ github.event.label.name }} == "pre-pub" ]]; then
-            mkdir -p content/posts/${{ github.event.issue.title }}
-            cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
-            ${{ github.event.issue.body }}
-            EOF
-          else
-            mkdir -p content/posts/${{ github.event.issue.title }}
-            cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
-            ${{ github.event.issue.body }}
-            EOF
-          fi
+          label="${{ github.event.label.name }}"
+          case "$label" in
+            "already")
+              mkdir -p content/posts/${{ github.event.issue.title }}
+              cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+              ${{ github.event.issue.body }}
+              EOF
+            ;;
+            "pre-pub")
+              mkdir -p content/posts/${{ github.event.issue.title }}
+              cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+              这是预发布文章
+              ${{ github.event.issue.body }}
+              EOF
+            ;;
+          esac
       
       - name: 提交PR
         uses: peter-evans/create-pull-request@v3
