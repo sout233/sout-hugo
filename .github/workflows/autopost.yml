@@ -10,5 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: test
-        run: echo "Here is ${{ github.repository }}"
+      - name: 从issue创建文章
+        run: |
+          mkdir content/posts/${{ github.event.issue.title }}
+          cat > "content/posts/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+          ${{ github.event.issue.body }}
+          EOF
