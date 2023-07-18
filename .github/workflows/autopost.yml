@@ -38,5 +38,5 @@ jobs:
           delete-branch: true
           title: "发布请求: ${{ github.event.issue.title}}"
           body: |
-            文章将自动部署到: https://sout.eu.org/p/${{ github.event.issue.title }}
+            文章将自动部署到: https://sout.eu.org
             将关闭以下issue: #${{ github.event.issue.number }}
