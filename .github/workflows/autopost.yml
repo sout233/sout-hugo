@@ -40,11 +40,3 @@ jobs:
           body: |
             文章将自动部署到: https://sout.eu.org
             将关闭以下issue: #${{ github.event.issue.number }}
-      
-      - name: Close Issue
-        uses: peter-evans/close-issue@v3.0.1
-        with:
-          token: ${{ github.token }}
-          repository: ${{ github.repository }}
-          issue-number: ${{ github.event.issue.number }}
-          close-reason: completed
