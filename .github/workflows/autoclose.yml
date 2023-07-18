@@ -1,1 +1,17 @@
+name: Auto Close Issue
 
+on:
+  pull_request:
+    types: ['closed']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3.0.1
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          issue-number: ${{ github.event.issue.number }}
+          close-reason: completed
