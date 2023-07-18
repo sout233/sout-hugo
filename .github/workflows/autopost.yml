@@ -1,5 +1,3 @@
-# 修改自 https://shazow.net/posts/github-issues-as-a-hugo-frontend/
-
 name: Auto Post From Issues
 
 on:
@@ -7,28 +5,15 @@ on:
     types: ['labeled']
 
 jobs:
-
-
   build:
-    # if: ${{ github.event.label.name == 'already' || github.event.label.name == 'pre-pub'}}
+    if: ${{ github.event.label.name == 'already' || github.event.label.name == 'pre-pub'}}
     runs-on: ubuntu-latest
     steps:
-      - name: 获取发布信息
-        if: contains(github.event.issue.labels.*.name, fromJSON('["already", "pre-pub"]'))
-      - name: 获取tag
-        uses: mad9000/actions-find-and-replace-string@3
-        id: findandreplace
-        with:
-          source: ${{ github.event.labels.*.name }} 
-          find: 'already'
-          replae: ''
-          
       - uses: actions/checkout@v2
+      
       - name: 从issue创建文章
         run: |
-          echo "${{github.event.label}}"
           label="${{ github.event.label.name }}"
-          is_already="${{ contains(github.event.issue.labels.*.name, 'alreafy')""
           case "$label" in
           "already")
           mkdir -p content/post/${{ github.event.issue.title }}
