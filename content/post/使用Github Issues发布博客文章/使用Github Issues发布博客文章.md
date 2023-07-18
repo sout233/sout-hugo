@@ -36,15 +36,15 @@ jobs:
           label="${{ github.event.label.name }}"
           case "$label" in
           "already")
-          mkdir -p content/post/${{ github.event.issue.title }}
-          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+          mkdir -p "content/post/${{ github.event.issue.title }}"
+          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << 'EOF'
           ---
           ${{ github.event.issue.body }}
           EOF
           ;;
           "pre-pub")
-          mkdir -p content/post/${{ github.event.issue.title }}
-          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+          mkdir -p "content/post/${{ github.event.issue.title }}"
+          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << 'EOF'
           ---
           ${{ github.event.issue.body }}
           > 该文章为自动预发布，可能存在些许误差，请以already版本为主。
