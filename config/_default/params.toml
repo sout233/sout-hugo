@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "https://s1.ax1x.com/2023/07/17/pCooODe.jpg"
+favicon = "https://img1.imgtp.com/2023/07/18/pJDQC7KI.jpg"
 
 [footer]
 since = 2020
@@ -19,7 +19,7 @@ subtitle = "Mikamika呢？它开心死了！"
 [sidebar.avatar]
 enabled = true
 local = false
-src = "https://s1.ax1x.com/2023/07/17/pCooODe.jpg"
+src = "https://img1.imgtp.com/2023/07/18/pJDQC7KI.jpg"
 
 [article]
 math = false
