@@ -17,9 +17,51 @@ tags:
 
 事实证明是可以的，以下是action脚本：
 
+```yml
+name: Auto Post From Issues
 
+on:
+  issues:
+    types: ['labeled']
+
+jobs:
+  build:
+    if: ${{ github.event.label.name == 'already' || github.event.label.name == 'pre-pub'}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: 从issue创建文章
+        run: |
+          label="${{ github.event.label.name }}"
+          case "$label" in
+          "already")
+          mkdir -p content/post/${{ github.event.issue.title }}
+          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+          ---
+          ${{ github.event.issue.body }}
+          EOF
+          ;;
+          "pre-pub")
+          mkdir -p content/post/${{ github.event.issue.title }}
+          cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
+          ---
+          ${{ github.event.issue.body }}
+          > 该文章为自动预发布，可能存在些许误差，请以already版本为主。
+          EOF
+          ;;
+          esac
+      
+      - name: 提交PR
+        uses: peter-evans/create-pull-request@v3
+        with:
+          delete-branch: true
+          title: "发布请求: ${{ github.event.issue.title}}"
+          body: |
+            文章将自动部署到: https://sout.eu.org
+            将关闭以下issue: #${{ github.event.issue.number }}
+```
 
 发布的issue需要指定label才可触发build，该action完成后合并pr，即可触发gh-page的工作流，然后就会推送到vercel上。
 
 该文章使用Github Issues发布。
-> 该文章为自动预发布，可能存在些许误差，请以already版本为主。
