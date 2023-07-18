@@ -23,7 +23,7 @@ jobs:
           EOF
           ;;
           "pre-pub")
-          mkdir -p content/post/${{ github.event.issue.title }}
+          mkdir -p "content/post/${{ github.event.issue.title }}"
           cat > "content/post/${{ github.event.issue.title }}/${{ github.event.issue.title }}.md" << EOF
           ---
           ${{ github.event.issue.body }}
