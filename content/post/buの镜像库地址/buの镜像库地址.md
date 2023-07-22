@@ -2,7 +2,7 @@
 title: buの镜像库地址
 description: 很好的镜像，爱❤来自砬
 slug: images-of-bu
-date: 2023-7-22 00:00:00+0000
+date: 2023-07-22 00:00:00+0000
 categories:
     - Tech
 tags:
