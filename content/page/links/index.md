@@ -14,6 +14,10 @@ links:
     description: 相信美好的事情即将发生
     website: http://www.sisc.ga/
     image: https://cdn.jsdelivr.net/gh/Fuukei/Public_Repository@latest/vision/basic/favicon.ico
+  - title: Diary Music
+    description:  记/ 事/ 簿/ 之/ 声 
+    website: http://dm.sout.eu.org
+    image: https://dm.sout.eu.org/svg/chening.svg
 menu:
     main: 
         weight: 4
