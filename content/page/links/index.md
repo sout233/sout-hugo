@@ -17,7 +17,7 @@ links:
   - title: Diary Music
     description:  记/ 事/ 簿/ 之/ 声 
     website: http://dm.sout.eu.org
-    image: https://dm.sout.eu.org/svg/chening.svg
+    image: https://img1.imgtp.com/2023/07/23/lE4OCF8P.png
 menu:
     main: 
         weight: 4
