@@ -33,3 +33,48 @@ https://www.123pan.com/s/jmULVv-M0FsH.html提取码:EEFA
 
 https://www.123pan.com/s/jmULVv-w0FsH.html提取码:RA03
 
+# 2023.7.25更新
+
+## 7.Windows Server 2008 r2 （驱动+激活）
+
+https://www.123pan.com/s/jmULVv-yKFsH.html提取码:Jm24
+
+## 8.Windows XP （柯南制作）
+
+https://www.123pan.com/s/jmULVv-yKFsH.html提取码:Jm24
+
+## 9.Windows 95 GHOST1
+
+https://www.123pan.com/s/jmULVv-jKFsH.html提取码:r0Aa
+
+## 10.Windows 95 GHOST2
+
+https://www.123pan.com/s/jmULVv-TuFsH.html提取码:KSbn
+
+## 11.Windows 7 BU几年前做的不到能不能用
+
+https://www.123pan.com/s/jmULVv-vuFsH.html提取码:fL5b
+
+## 12.三个一键部署的pe拆包
+
+https://www.123pan.com/s/jmULVv-duFsH.html提取码:eZ6i  Win7
+
+https://www.123pan.com/s/jmULVv-3uFsH.html提取码:22Af  2003
+
+https://www.123pan.com/s/jmULVv-huFsH.html提取码:ylOO  Win10
+
+## 13.Wepe64
+
+https://www.123pan.com/s/jmULVv-HuFsH.html提取码:3xFh
+
+## 14.Win8pe 超级小！！！bu制作
+
+https://www.123pan.com/s/jmULVv-AuFsH.html提取码:ryNb
+
+## 15.电脑店pe6.2去广告去捆绑
+
+https://www.123pan.com/s/jmULVv-9uFsH.html提取码:olJS
+
+## 16.Windows 98 SE ISO已打包完成
+
+https://www.123pan.com/s/jmULVv-9uFsH.html提取码:olJS
