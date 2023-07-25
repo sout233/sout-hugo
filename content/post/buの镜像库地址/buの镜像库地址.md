@@ -78,3 +78,44 @@ https://www.123pan.com/s/jmULVv-9uFsH.html提取码:olJS
 ## 16.Windows 98 SE ISO已打包完成
 
 https://www.123pan.com/s/jmULVv-9uFsH.html提取码:olJS
+
+# 深度xp经典系统
+## 17.深度xp v6.2 vc2008+2010
+thunder://QUFodHRwOi8vZGVlcGluLjUyenkuY29tL1s1XURFRVBJTi1MSVRFWFAtNi4yWzUyenkuY29tXS5pc29aWg==
+## 18.Deepin 5.2 xp
+thunder://QUFodHRwOi8vZG93bi41Mnp5LmNvbS9bNV1EZWVwaW5YUC1WNS4yXzUyenkuY29tLmlzb1pa
+## 19.Deepin 5.3 xp 一周年纪念
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUFY1M185N3NreS5JU09aWg==/
+## 20。Deepin XP 5.3SP会员版本
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUF9WNTNTUC5JU09aWg==/
+## 21.Deepin XP 5.4 2006年
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUF9WNTQucmFyWlo=/
+## 22.Deepin Xp 5.5 2006
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUF9WNTUuaXNvWlo=/
+http://58.218.202.183/DeepinXP_V53SP.ISO
+## 23.Deepin XP lite2007
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YX1Y1NVNQLnJhclpa/
+http://58.218.202.183/DeepinX_V55SP.rar
+## 24.Deepin XP 5.6
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUF9WNTYuaXNvWlo=/
+http://58.218.202.183/DeepinXP_V56.iso
+## 25.Deepin XP 5.7
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUF81Ny5yYXJaWg==/
+http://58.218.202.183/DeepinXP_57.rar
+## 26同上5.8
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9kZWVwaW54cF81OC5yYXJaWg==/
+http://58.218.202.183/deepinxp_58.rar
+
+27 6.1最终
+
+thunder://QUFmdHA6Ly85N3NreTo5N3NreUAyMjIuNzYuMjEzLjE2OS9EZWVwaW5YUC1TUDMtVjYuMS1URVNULnJhclpa/
+http://58.218.202.183/DeepinXP-SP3-V6.1-TEST.rar
+## 28 深度vista
+thunder://QUF0aHVuZGVyOi8vUVVGb2RIUndPaTh2YlhrdU5USmtaRzl6TG1OdmJTOXhMM052Wm5RdnllNjJ5RWRXTWk0d0xuSmhjbHBhWlo=
+## 29 Windows 98 2000 XP精简版四合一（Win98＋亮2K＋亮XP4＋深度XP5.8）
+thunder://QUFmdHA6Ly93d3cuaW45LmNuOjExMUAyMTguNi4xMi4zNS8wNzEyXFdpbmRvd3MgOTggMjAwMCBYUC9XSU45ODJLWFAuaXNvWlo=
+## 30.深度★经典珍藏版 Windows 98 ME XP PE四合一光盘★
+thunder://QUFmdHA6Ly93d3cuaW45LmNuOjExMTExMUAyMDIuMTA3LjI1MC44MjozMjE1LzA3MTEyMi9XaW5kb3dzIDk4IE1FIFhQy8S6z9K7L1dJTk1FOThYUC5pc29aWg==
+## 31.深度XP快速装机v5
+thunder://QUFodHRwOi8vZGl5LmRlZXBpbi5vcmcvZG93bmxvYWQvZGVlcGlueHAtNS44Lmlzb1pa
+
