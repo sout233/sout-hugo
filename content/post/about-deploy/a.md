@@ -38,8 +38,6 @@ Output Directory:public
 环境变量：
 HUGO_VERSION    0.108.0(为hugo_ext的最新版本)
 ```
-![部署参考图](https://i.328888.xyz/2022/12/13/yRE8L.png)
-![环境变量的配置参考图](https://i.328888.xyz/2022/12/13/yR7yk.png)
 
 ## 域名配置
 
@@ -77,8 +75,6 @@ card = "summary_large_image"
 > 关了预览部署就行，git page编译容易报错
 > 
 > 在工程设置中设置：`[ "$VERCEL_ENV" != production ]`
-> 
-> ![关闭部署预览参考图](https://i.328888.xyz/2022/12/13/yRzqU.png)
 
 ### sitemap或搜索地址错误
 
