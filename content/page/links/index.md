@@ -5,7 +5,7 @@ links:
   - title: HIM的Blog
     description: HIM's Blog - 每个人都走在自己的路上
     website: https://blog.him.usla.cn/
-    image: https://blog.him.usla.cn/usr/themes/simple/img/favicon.ico
+    image: https://blog.him.usla.cn/img/avatar.jpg
   - title: 七奈（柯南）的Blog
     description: 七奈's blog – 我永远能行！
     website: https://slqinai.cn/
