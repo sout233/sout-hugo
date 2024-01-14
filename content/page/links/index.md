@@ -23,6 +23,15 @@ menu:
         weight: 4
         params:
             icon: link
+  - title: FANXING | BLOG
+    description: 繁星闪耀夜空明，银河如带绕天行
+    website: https://www.fanxing0710.top/
+    image: https://image.fanxing0710.top/file/f539b54a5d8e9ad368553.png
+menu:
+    main: 
+        weight: 4
+        params:
+            icon: link
 ---
 
 联系sout添加友链！
