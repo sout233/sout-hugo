@@ -9,7 +9,7 @@ links:
   - title: 七奈（柯南）的Blog
     description: 七奈's blog – 我永远能行！
     website: https://slqinai.cn/
-    image: https://slqinai.cn/wp-content/uploads/2022/04/cropped-cropped-44b759caa177b7d5dc2c234f6aa3cd1bf5b8e8ef-300x300-1-32x32.jpg
+    image: https://icon-library.com/images/website-icon-png-transparent/website-icon-png-transparent-1.jpg
   - title: 魚が大好きな猫のxiao窝(小鱼儿的blog)
     description: 相信美好的事情即将发生
     website: http://www.sisc.ga/
@@ -17,7 +17,7 @@ links:
   - title: Diary Music
     description:  记/ 事/ 簿/ 之/ 声 
     website: http://dm.sout.eu.org
-    image: https://img1.imgtp.com/2023/07/23/lE4OCF8P.png
+    image: https://icon-library.com/images/website-icon-png-transparent/website-icon-png-transparent-1.jpg
   - title: FANXING | BLOG
     description: 繁星闪耀夜空明，银河如带绕天行
     website: https://www.fanxing0710.top/
