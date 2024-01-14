@@ -18,11 +18,6 @@ links:
     description:  记/ 事/ 簿/ 之/ 声 
     website: http://dm.sout.eu.org
     image: https://img1.imgtp.com/2023/07/23/lE4OCF8P.png
-menu:
-    main: 
-        weight: 4
-        params:
-            icon: link
   - title: FANXING | BLOG
     description: 繁星闪耀夜空明，银河如带绕天行
     website: https://www.fanxing0710.top/
