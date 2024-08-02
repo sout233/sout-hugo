@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>建站小寄巧 on sout的树洞</title><link>https://sout.mikamika.ga/categories/%E5%BB%BA%E7%AB%99%E5%B0%8F%E5%AF%84%E5%B7%A7/</link><description>Recent content in 建站小寄巧 on sout的树洞</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 13 Dec 2022 00:27:44 +0000</lastBuildDate><atom:link href="https://sout.mikamika.ga/categories/%E5%BB%BA%E7%AB%99%E5%B0%8F%E5%AF%84%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>一次部署博客的记录</title><link>https://sout.mikamika.ga/p/about-deploy/</link><pubDate>Tue, 13 Dec 2022 00:27:44 +0000</pubDate><guid>https://sout.mikamika.ga/p/about-deploy/</guid><description>&lt;img src="https://images.unsplash.com/photo-1670588761146-2425a98a9a5a?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8aVVJc25WdGpCMFl8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="Featured image of post 一次部署博客的记录" />&lt;p>在此记录建站过程，用作参考，也避免以后遗忘。&lt;/p>
+&lt;h2 id="准备工作">准备工作&lt;/h2>
+&lt;p>本站采用全静态（穷死），方案是Github（仓库）+ Codespace（工作环境）+Vercel（托管）+Netlify（DNS）&lt;/p>
+&lt;p>（因为Netlify一直部署失败所才用的Vercel来托管）&lt;/p>
+&lt;p>主题用的&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>hugo-theme-stack&lt;/a>&lt;/p>
+&lt;h2 id="部署codespace">部署Codespace&lt;/h2>
+&lt;p>从&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>模板&lt;/a>创建，然后切到fork后的仓库，单击Code绿色按钮，点击创建Codespace。&lt;/p>
+&lt;h2 id="修改配置文件">修改配置文件&lt;/h2>
+&lt;p>参照&lt;a class="link" href="https://stack.jimmycai.com" target="_blank" rel="noopener"
+>stack文档&lt;/a>进行修改，不多赘述。&lt;/p>
+&lt;h2 id="部署到vercel">部署到Vercel&lt;/h2>
+&lt;p>登录Vercel，从Github仓库创建，部署指令，输出目录和环境变量需要修改为：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Build Command:amazon-linux-extras install golang1.11 &amp;amp;&amp;amp; hugo --gc --minify
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Output Directory:public
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">环境变量：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HUGO_VERSION 0.108.0(为hugo_ext的最新版本)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="域名配置">域名配置&lt;/h2>
+&lt;p>DNS CNAME过去就行&lt;/p>
+&lt;p>&lt;del>希望不会懒死以后的我&lt;/del>&lt;/p>
+&lt;h2 id="seo">SEO&lt;/h2>
+&lt;h3 id="open-graph">Open Graph&lt;/h3>
+&lt;p>修改&lt;code>config/_default/params.toml&lt;/code>即可（可参考stack文档）&lt;/p>
+&lt;p>like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">opengraph&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">twitter&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">site&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;sout_Nantang&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">card&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;summary_large_image&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="主动提交">主动提交&lt;/h3>
+&lt;p>将域名和&lt;a class="link" href="https://sout.mikamika.ga/sitemap.xml" target="_blank" rel="noopener"
+>sitemap&lt;/a>提交给各大搜索引擎&lt;/p>
+&lt;p>提交平台如下：&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.bing.com/webmasters" target="_blank" rel="noopener"
+>https://www.bing.com/webmasters&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://ziyuan.baidu.com/site/index" target="_blank" rel="noopener"
+>https://ziyuan.baidu.com/site/index&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://search.google.com/search-console" target="_blank" rel="noopener"
+>https://search.google.com/search-console&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="常见问题">常见问题&lt;/h2>
+&lt;h3 id="vercel-预览-部署失败">Vercel 预览 部署失败&lt;/h3>
+&lt;blockquote>
+&lt;p>关了预览部署就行，git page编译容易报错&lt;/p>
+&lt;p>在工程设置中设置：&lt;code>[ &amp;quot;$VERCEL_ENV&amp;quot; != production ]&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="sitemap或搜索地址错误">sitemap或搜索地址错误&lt;/h3>
+&lt;blockquote>
+&lt;p>config没设置正确，看看&lt;code>config/_default/config.toml&lt;/code>配置对了没有&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;p>Photo on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
